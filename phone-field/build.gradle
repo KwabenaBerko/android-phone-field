@@ -10,6 +10,12 @@ android {
     versionCode 13
     versionName "0.1.3"
   }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
   buildTypes {
     release {
       minifyEnabled true
